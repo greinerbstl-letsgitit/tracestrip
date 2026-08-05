@@ -314,7 +314,7 @@
   <div class="screen active" id="screen1">
     <div class="logo">Tracestrip</div>
 
-    <h1>Stop looking. Start finding</em></h1>
+    <h1>Stop looking. Start finding</h1>
 
     <p class="subhead">
       The tracker that doesn't get in the way.
@@ -499,8 +499,7 @@
       document.getElementById('ref-link-display').value = refLink;
       document.getElementById('ref-count-display').textContent = user.referral_count || 0;
 
-      const msg = encodeURIComponent('I just joined the Tracestrip waitlist — a tracking strip that doesn't get in the way. Top 10 referrers win free Tracestrips for life. Join here: ' + refLink);
-      const shortMsg = encodeURIComponent('Join me on the Tracestrip waitlist: ' + refLink);
+      const msg = encodeURIComponent("I just joined the Tracestrip waitlist — a tracking strip that doesn't get in the way. Top 10 referrers win free Tracestrips for life. Join here: " + refLink);
 
       document.getElementById('share-sms').href = 'sms:?body=' + shortMsg;
       document.getElementById('share-twitter').href = 'https://twitter.com/intent/tweet?text=' + msg;
